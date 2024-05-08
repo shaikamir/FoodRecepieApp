@@ -13,7 +13,7 @@ console.log("In Home", productsList)
       {
         productsList && productsList.length > 0 ? 
           productsList.map((eachItem) => <RecepieItem key={eachItem.id} dataFrmHome={eachItem}/>)
-        : <div className='bg-red-400 font-semibold text-gray-900 text-md  p-4 rounded-md'>No records found. Please search something...</div>
+        : <div className='bg-red-400 font-semibold text-gray-900 text-md  p-4 rounded-md'>Search for delicious recipes!</div>
       }
     </div>
   )
